@@ -33,7 +33,7 @@ sys.path.insert(0, os.path.abspath('../src/'))
 
 project = 'ACE'
 copyright = '2022-2023, The Johns Hopkins University Applied Physics Laboratory'
-author = 'Brian Sipos, Amanda Voegtlin'
+author = 'JHU/APL'
 release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------

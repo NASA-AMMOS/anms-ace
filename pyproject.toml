@@ -63,5 +63,5 @@ max-line-length=100
 ace_ari = "ace.tools.ace_ari:main"
 
 [project.urls]
-"Homepage" = "https://gitlab.jhuapl.edu/dtn/ace"
-"Bug Tracker" = "https://gitlab.jhuapl.edu/dtn/ace"
+"Homepage" = "https://github.com/NASA-AMMOS/anms-ace"
+"Bug Tracker" = "https://github.com/NASA-AMMOS/anms-ace/issues"
