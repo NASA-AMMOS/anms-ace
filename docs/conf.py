@@ -19,6 +19,9 @@
 # the prime contract 80NM0018D0004 between the Caltech and NASA under
 # subcontract 1658085.
 #
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../src/'))
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -29,7 +32,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ACE'
-copyright = '2022, The Johns Hopkins University Applied Physics Laboratory'
+copyright = '2022-2023, The Johns Hopkins University Applied Physics Laboratory'
 author = 'Brian Sipos, Amanda Voegtlin'
 release = '1.0.0'
 
