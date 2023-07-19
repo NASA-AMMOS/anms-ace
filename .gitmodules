@@ -1,0 +1,4 @@
+[submodule "tests/adms"]
+	path = tests/adms
+	url = ../anms-adms.git
+	branch = main
