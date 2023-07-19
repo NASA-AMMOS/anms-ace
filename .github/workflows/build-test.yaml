@@ -36,9 +36,6 @@ jobs:
       - name: Install flake8
         run: pip3 install -e '.[flake8]'
       - name: Run flake8
-        uses: julianwachholz/flake8-action@v2
-        with:
-          checkName: "flake8"
-          path: src
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          FAIL_SRC=0
+          flake8 src || FAIL_SRC=$?
