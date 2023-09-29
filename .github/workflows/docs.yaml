@@ -32,8 +32,8 @@ jobs:
       - name: dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y python3-pip
-	  pip3 install --upgrade pip
-	  pip3 install .[docs]
+          pip3 install --upgrade pip
+          pip3 install .[docs]
       - name: build
         run: ./build_docs.sh
       - uses: actions/upload-artifact@v3
