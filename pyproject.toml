@@ -6,12 +6,11 @@ build-backend = "setuptools.build_meta"
 name = "anms-ace"
 version = "1.0.0"
 authors = [
-  { name="Amanda Voegtlin", email="amanda.voegtlin@jhuapl.edu" },
-  { name="Brian Sipos", email="brian.sipos@jhuapl.edu" },
+  { name="JHU/APL", email="dtnma-support@jhuapl.edu" },
 ]
 description = "ADM CODEC Engine"
 readme = "README.md"
-license = { file="LICENSE" }
+license = { text="Apache-2.0" }
 requires-python = ">=3.7"
 classifiers = [
   "Development Status :: 5 - Production/Stable",
