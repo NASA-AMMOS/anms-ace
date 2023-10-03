@@ -6,8 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "anms-ace"
 version = "1.0.0"
 authors = [
-  { name="Amanda Voegtlin", email="amanda.voegtlin@jhuapl.edu" },
-  { name="Brian Sipos", email="brian.sipos@jhuapl.edu" },
+  { name="JHU/APL", email="dtnma-support@jhuapl.edu" },
 ]
 description = "ADM CODEC Engine"
 readme = "README.md"
