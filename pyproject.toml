@@ -10,7 +10,7 @@ authors = [
 ]
 description = "ADM CODEC Engine"
 readme = "README.md"
-license = { file="LICENSE" }
+license = { text="Apache-2.0" }
 requires-python = ">=3.7"
 classifiers = [
   "Development Status :: 5 - Production/Stable",
