@@ -20,7 +20,7 @@
 ## subcontract 1658085.
 ##
 
-name: Build documentation
+name: API documentation
 
 on:
   push:
@@ -44,7 +44,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  apidoc:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
