@@ -34,7 +34,7 @@ sys.path.insert(0, os.path.abspath('../src/'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ACE'
-copyright = '2022-2023, The Johns Hopkins University Applied Physics Laboratory'
+copyright = '2022-2024, The Johns Hopkins University Applied Physics Laboratory'
 author = 'JHU/APL'
 release = get_distribution('anms-ace').version
 
