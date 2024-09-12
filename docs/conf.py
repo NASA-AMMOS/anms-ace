@@ -21,6 +21,8 @@
 #
 import os
 import sys
+from pkg_resources import get_distribution
+
 sys.path.insert(0, os.path.abspath('../src/'))
 
 # Configuration file for the Sphinx documentation builder.
@@ -34,7 +36,7 @@ sys.path.insert(0, os.path.abspath('../src/'))
 project = 'ACE'
 copyright = '2022-2023, The Johns Hopkins University Applied Physics Laboratory'
 author = 'JHU/APL'
-release = '1.0.0'
+release = get_distribution('anms-ace').version
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
