@@ -19,9 +19,17 @@ Institute of Technology, sponsored by the United States Government under
 the prime contract 80NM0018D0004 between the Caltech and NASA under
 subcontract 1658085.
 -->
+
+> [!IMPORTANT]
+> This library has been relocated to [JHUAPL-DTNMA/dtnma-ace](https://github.com/JHUAPL-DTNMA/dtnma-ace) under a different Github organization.
+> Future maintenance and upkeep of the library will be managed outside of the ANMS project and the AMMOS organization.
+> Please use that forked project for any new developent and for bug or enhancement reports.
+
 # ACE Tools
 This is the AMM CODEC Engine (ACE) for the DTN Management Architecture (DTNMA).
 It is part of the larger Asynchronous Network Managment System (ANMS) managed for [NASA AMMOS](https://ammos.nasa.gov/).
+
+This library is based on [draft-birrane-dtn-adm-03](https://datatracker.ietf.org/doc/html/draft-birrane-dtn-adm-03) for data models and ARI processing.
 
 It is a library to manage the information in DTNMA Application Data Models (ADMs) and use that information to encode and decode DTNMA Application Resource Identifiers (ARIs) in:
  * Text form based on [URI encoding](https://www.rfc-editor.org/rfc/rfc3986.html)
@@ -33,7 +41,7 @@ It also includes an `ace_ari` command line interface (CLI) for translating betwe
 
 To install development and test dependencies for this project, run from the root directory (possibly under sudo if installing to the system path):
 ```sh
-pip3 install -r <(python3 -m piptools compile --extra test pyproject.toml 2>&1)
+pip3 install -r <(python-m library is based on * [draft-birrane-dtn-adm-03](https://datatracker.ietf.org/doc/html/draft-birrane-dtn-adm-03) for data models and ARI processing.
 ```
 
 To install the project itself from source run:
@@ -43,7 +51,7 @@ pip3 install .
 
 An example of using the ARI transcoder, from the source tree, to convert from text to binary form is:
 ```
-echo 'ari:/IANA:ion_admin/CTRL.node_contact_add(UVAST.1685728970,UVAST.1685729269,UINT.2,UINT.2,UVAST.25000,UVAST.1)' | PYTHONPATH=./src ADM_PATH=./tests/adms python3 -m ace.tools.ace_ari --inform=text --outform=cborhex
+echo 'ari:/IANA:ion_admin/CTRL.node_contact_add(UVAST.1685728970,UVAST.1685729269,UINT.2,UINT.2,UVAST.25000,UVAST.1)' | PYTHONPATH=./src ADM_PATH=./tests/adms python3 -m ace.library is based on * [draft-birrane-dtn-adm-03]ttps://datatracker.ietf.org/doc/html/draft-birrane-dtn-adm-03) for data models and ARI processing.inform=text --outform=cborhex
 ```
 which will produce a hexadecimal output:
 ```
